@@ -1,4 +1,13 @@
 {
+  "once": {
+    "prefix": "once",
+    "body": [
+        "#ifndef __${TM_FILENAME_BASE}_H__",
+        "#define __${TM_FILENAME_BASE}_H__",
+        "#endif //__${TM_FILENAME_BASE}_H__"
+    ],
+    "description": ""
+  },
   "cout": {
     "prefix": "cout",
     "body": "cout << $1 ${2:<< endl;}",
