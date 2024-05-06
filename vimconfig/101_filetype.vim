@@ -46,7 +46,7 @@ autocmd FileType * setlocal formatoptions-=ro
 " cmake-format
 """""""""""""""""""""""""""""""""""
 let g:cmake_format_fmt_on_save = 1
-nnoremap <leader>mm :CmakeFormat -c ~/ws/dotfiles/cmake.config -o /dev/stdout<CR>
+nnoremap <leader>mm :CmakeFormat -c ~/ws/dotfiles/other_config/cmake.config -o /dev/stdout<CR>
 
 
 """""""""""""""""""""""""""""""""""
@@ -55,7 +55,8 @@ nnoremap <leader>mm :CmakeFormat -c ~/ws/dotfiles/cmake.config -o /dev/stdout<CR
 function! CFormat()
 	!clang-format -i %
 endfunction
-nnoremap <leader>cc :call CFormat()<CR>
+"nnoremap <leader>cc :call CFormat()<CR>
+nnoremap <leader>ff :call CFormat()<CR>
 
 
 """"""""""""""""""""""""""""""""""""""

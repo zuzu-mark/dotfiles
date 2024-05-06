@@ -32,6 +32,11 @@ Plug 'mattn/vim-goaddtags'
 Plug 'pignacio/vim-yapf-format'
 Plug 'chase/vim-ansible-yaml'
 
+"" other
+Plug 'vim-scripts/Align'
+Plug 'garbas/vim-snipmate'
+
+Plug 'MarcWeber/vim-addon-mw-utils'
 call plug#end()
 
 

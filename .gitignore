@@ -22,3 +22,4 @@ kubectl
 backup-*.zip
 
 cmakelang-0.6.13/
+external/
