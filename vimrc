@@ -19,10 +19,10 @@ Plug 'mattn/vim-lsp-settings'
 "" completion
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
-"Plug 'Shougo/ddc.vim'
-"Plug 'shun/ddc-vim-lsp'
+Plug 'Shougo/ddc.vim'
+Plug 'shun/ddc-vim-lsp'
 
-"" snip
+" snip
 Plug 'hrsh7th/vim-vsnip'
 Plug 'hrsh7th/vim-vsnip-integ'
 
@@ -37,6 +37,9 @@ Plug 'vim-scripts/Align'
 Plug 'garbas/vim-snipmate'
 
 Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'tomtom/tlib_vim'
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 

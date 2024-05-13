@@ -13,7 +13,7 @@ clangd_install() {
     sudo apt install curl gnupg
     curl -fsSL https://apt.llvm.org/llvm-snapshot.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/llvm.gpg
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/llvm.gpg] http://apt.llvm.org/jammy/ llvm-toolchain-jammy main" |
-        sudo tee /etc/apt/sources.list.d/llvm.list >/dev/nul
+        sudo tee /etc/apt/sources.list.d/llvm.list >/dev/null
 
 }
 check() {
